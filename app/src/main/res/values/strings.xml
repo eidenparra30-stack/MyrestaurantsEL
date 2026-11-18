@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My restaurantsEL</string>
+    <string name="pizza_hut_menu">Pizza Hut Menu</string>
+    <string name="pepperoni_pizza">Pepperoni Pizza</string>
+    <string name="cheese_pizza">Cheese Pizza</string>
+    <string name="rate_our_pizza">Rate Our Pizza</string>
 </resources>
