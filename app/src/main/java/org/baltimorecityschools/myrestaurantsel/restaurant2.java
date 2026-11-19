@@ -67,11 +67,11 @@ public class restaurant2 extends AppCompatActivity {
 
         // Pepperoni Small
         pepperoniSmallBTN.setOnClickListener(v -> {
-            pepperoniPrice[0] = 8.00;
+            pepperoniPrice[0] = 7.00;
 
             Toast.makeText(
                     restaurant2.this,
-                    "Pepperoni Small - $8",
+                    "Pepperoni Small - $7",
                     Toast.LENGTH_SHORT
             ).show();
         });
@@ -91,11 +91,11 @@ public class restaurant2 extends AppCompatActivity {
 
         // Pepperoni Large
         pepperoniLargeBTN.setOnClickListener(v -> {
-            pepperoniPrice[0] = 12.00;
+            pepperoniPrice[0] = 15.00;
 
             Toast.makeText(
                     restaurant2.this,
-                    "Pepperoni Large - $12",
+                    "Pepperoni Large - $15",
                     Toast.LENGTH_SHORT
             ).show();
         });
@@ -103,11 +103,11 @@ public class restaurant2 extends AppCompatActivity {
 
         // Cheese Small
         cheeseSmallBTN.setOnClickListener(v -> {
-            cheesePrice[0] = 8.00;
+            cheesePrice[0] = 7.00;
 
             Toast.makeText(
                     restaurant2.this,
-                    "Cheese Small - $8",
+                    "Cheese Small - $7",
                     Toast.LENGTH_SHORT
             ).show();
         });
@@ -127,11 +127,11 @@ public class restaurant2 extends AppCompatActivity {
 
         // Cheese Large
         cheeseLargeBTN.setOnClickListener(v -> {
-            cheesePrice[0] = 12.00;
+            cheesePrice[0] = 15.00;
 
             Toast.makeText(
                     restaurant2.this,
-                    "Cheese Large - $12",
+                    "Cheese Large - $15",
                     Toast.LENGTH_SHORT
             ).show();
         });

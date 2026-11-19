@@ -94,21 +94,27 @@
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="S"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"/>
 
         <Button
             android:id="@+id/pepperoniMediumBTN"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="M"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"/>
 
         <Button
             android:id="@+id/pepperoniLargeBTN"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="L"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"/>
 
     </LinearLayout>
 
@@ -129,21 +135,27 @@
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="S"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"/>
 
         <Button
             android:id="@+id/cheeseMediumBTN"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="M"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"/>
 
         <Button
             android:id="@+id/cheeseLargeBTN"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="L"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"/>
 
     </LinearLayout>
 
@@ -165,23 +177,27 @@
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="-"
-            android:textSize="20sp" />
+            android:textSize="24sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"/>
 
         <TextView
             android:id="@+id/pepperoniQuantityTV"
-            android:layout_width="60dp"
+            android:layout_width="66dp"
             android:layout_height="50dp"
             android:gravity="center"
             android:text="0"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="19sp" />
 
         <Button
             android:id="@+id/pepperoniPlusBTN"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="+"
-            android:textSize="20sp" />
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"/>
 
     </LinearLayout>
 
@@ -203,23 +219,27 @@
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="-"
-            android:textSize="20sp" />
+            android:textSize="25sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black"/>
 
         <TextView
             android:id="@+id/cheeseQuantityTV"
-            android:layout_width="60dp"
+            android:layout_width="66dp"
             android:layout_height="50dp"
             android:gravity="center"
             android:text="0"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="19sp" />
 
         <Button
             android:id="@+id/cheesePlusBTN"
             android:layout_width="60dp"
             android:layout_height="50dp"
             android:text="+"
-            android:textSize="20sp" />
+            android:textSize="22sp"
+            android:textColor="@color/red"
+            android:backgroundTint="@color/black" />
 
     </LinearLayout>
 
@@ -286,7 +306,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="Total: $0.00"
-        android:textColor="@color/red"
+        android:textColor="@color/white"
         android:textSize="21sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
